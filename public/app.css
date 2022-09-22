@@ -1,0 +1,28 @@
+
+
+body {
+    background-color: rgb(255, 255, 255);
+    color: rgb(20, 69, 97);
+    max-width: 600px;
+    margin:auto;
+    font-family: sans-serif;
+}
+
+p{
+    line-height: 1.5;
+    font-style: bold;
+}
+article + article{
+    margin-top: 3rem;
+    padding-top: 3rem;
+    border-top: 2px solid cornflowerblue;
+}
+a{
+    text-decoration:none;
+    color: rgb(20, 69, 97);
+}
+a .adresspost{
+    color: brown;
+    font-family:'Courier New', Courier, monospace;
+    font: bolder;
+}
